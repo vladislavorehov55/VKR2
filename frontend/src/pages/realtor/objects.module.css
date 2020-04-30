@@ -1,0 +1,43 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /*width: 600px;*/
+    /*margin: 10px auto;*/
+}
+.wrapper_item {
+    margin: 10px auto;
+    box-sizing: border-box;
+    /*width: 600px;*/
+    cursor: pointer;
+}
+.wrapper_item:hover{
+    background: aqua;
+}
+.btn, .btn_filter{
+    color: white;
+    border-radius: 3px;
+    background: blue;
+    border: 0;
+    cursor: pointer;
+}
+.btn{
+    height: 2.5rem;
+}
+.btn:hover, .status_field:hover {
+    background: #333;
+}
+h3{
+    margin: 0;
+}
+.status_wrapper{
+    margin: 0 0 5px 0;
+}
+.status_field{
+    color: white;
+    height: 30px;
+    background: blue;
+    cursor: pointer;
+    border-radius: 3px;
+}

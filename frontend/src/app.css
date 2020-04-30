@@ -1,0 +1,10 @@
+.main{
+    overflow: hidden;
+}
+.btn{
+    color: white;
+    height: 2.5rem;
+    border-radius: 3px;
+    background: blue;
+    border: 0;
+}

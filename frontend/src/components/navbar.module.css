@@ -1,0 +1,37 @@
+.nav{
+    list-style: none;
+    display: flex;
+    padding-right: 5px;
+    background: grey;
+    margin: 0;
+    height: 60px;
+    align-items: center;
+}
+.nav_item{
+    margin-right: 30px;
+}
+li:last-child{
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.drop_down_list{
+    list-style: none;
+    display: none;
+    position: absolute;
+    padding: 5px 0 5px 0;
+
+    background: rgb(192,192,192);
+}
+.drop_down_list li{
+    margin-bottom: 5px;
+}
+.drop_down_list li:hover{
+    background: rgb(230,230,230);
+}
+.menu li:hover .drop_down_list{
+    display: block;
+}

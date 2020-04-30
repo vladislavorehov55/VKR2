@@ -1,0 +1,47 @@
+.wrapper{
+    /*width: 500px;*/
+    padding: 10px 10px 0 10px;
+}
+.input_item, .select, .empty_input{
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+}
+.empty_input{
+    background: red;
+}
+.btn_wrapper, .label_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.btn_wrapper:last-child{
+    margin-top: 10px;
+}
+.btn, .label{
+    color: white;
+    height: 2.5rem;
+    border-radius: 3px;
+    background: blue;
+    border: 0;
+    cursor: pointer;
+}
+.label {
+    display: flex;
+    align-items: center;
+    padding: 1px 6px 1px 6px;
+    transition: all 0.18s ease-in-out;
+}
+.label:hover, .btn:hover {
+    background: #333;
+}
+.label_wrapper :last-child{
+    margin-left: 10px;
+}
+.fields_wrapper{
+    display: flex;
+    align-items: center;
+}
+.label_fields{
+    margin-right: 10px;
+}

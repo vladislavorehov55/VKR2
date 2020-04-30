@@ -1,0 +1,29 @@
+.form_add{
+    width: 500px;
+    margin: 10px auto;
+}
+.form_add_item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form_add_input, .select{
+    height: 30px;
+    border-radius: 5px;
+}
+.btn_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    color: white;
+    height: 2.5rem;
+    border-radius: 3px;
+    background: blue;
+    border: 0;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #333;
+}

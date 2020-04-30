@@ -1,0 +1,10 @@
+.deal_wrapper{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.deal_wrapper div{
+    margin-bottom: 10px;
+}
+.deal_wrapper div label{
+    margin-right: 30px;
+}

@@ -1,0 +1,16 @@
+export const LOGIN = 'LOGIN';
+export const LOGOUT = 'LOGOUT';
+export const SHOW_ALERT = 'SHOW_ALERT';
+export const HIDE_ALERT = 'HIDE_ALERT';
+export const SHOW_NAVIGATION = 'SHOW_NAVIGATION';
+export const HIDE_NAVIGATION = 'HIDE_NAVIGATION';
+export const GET_USERS = 'GET_USERS';
+export const DELETE_USER = 'DELETE_USER';
+export const ACTIVE_BTN = 'ACTIVE_BTN';
+export const INACTIVE_BTN = 'INACTIVE_BTN';
+export const GET_OBJECTS = 'GET_OBJECTS';
+export const GET_OBJECT = 'GET_OBJECT';
+export const GET_IMAGE = 'GET_IMAGE';
+export const SHOW_FILTR = 'SHOW_FILTR';
+export const HIDE_FILTR = 'HIDE_FILTR';
+export const GET_DEAL = 'GET_DEAL';
